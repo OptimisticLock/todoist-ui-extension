@@ -6,7 +6,7 @@
       "request": "launch",
       "name": "Debug TypeScript",
       "runtimeArgs": ["-r", "ts-node/register"],
-      "args": ["${workspaceFolder}/src/index.ts"],
+      "args": ["${workspaceFolder}/src/app.ts"],
       "cwd": "${workspaceFolder}",
       "outFiles": ["${workspaceFolder}/**/*.js"],
       "sourceMaps": true
